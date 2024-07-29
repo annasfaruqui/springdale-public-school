@@ -6,12 +6,7 @@ export default {
     fontFamily: {
       sans: ["Lato", "sans-serif"],
     },
-    extend: {
-      backgroundImage: {
-        "page-header":
-          "linear-gradient(to right, rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.2) 85%),url('page-header-bg.jpg')",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
