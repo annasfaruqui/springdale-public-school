@@ -6,7 +6,15 @@ export default {
     fontFamily: {
       sans: ["Lato", "sans-serif"],
     },
-    extend: {},
+
+    extend: {
+      minHeight: {
+        screen: "100svh",
+      },
+      height: {
+        screen: "100svh",
+      },
+    },
   },
   plugins: [],
 };

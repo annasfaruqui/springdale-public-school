@@ -1,3 +1,10 @@
+import johnDoeImg from "../images/faculty/john-doe.jpg";
+import janeSmithImg from "../images/faculty/jane-smith.jpg";
+import sophiaDavisImg from "../images/faculty/sophia-davis.jpg";
+import emilyJohnsonImg from "../images/faculty/emily-johnson.jpg";
+import michaelBrownImg from "../images/faculty/michael-brown.jpg";
+import davidWilsonImg from "../images/faculty/david-wilson.jpg";
+
 export const facultyPageData = {
   profiles: [
     {
@@ -7,7 +14,7 @@ export const facultyPageData = {
       email: "john_doe@springdale.com",
       qualification: "M.Ed",
       summary: "20 years of experience in educational administration.",
-      image: "https://iitg.academia.edu/DrSMantha",
+      image: johnDoeImg,
     },
     {
       id: 2,
@@ -16,43 +23,44 @@ export const facultyPageData = {
       email: "jane_smith@springdale.com",
       qualification: "M.Sc. in Physics",
       summary: "15 years of teaching experience.",
-      image: "https://iitg.academia.edu/DrSMantha",
+      image: janeSmithImg,
     },
     {
       id: 3,
-      name: "Emily Johnson",
-      designation: "English Teacher",
-      email: "emily_johnson@springdale.com",
-      qualification: "M.A. in English",
-      summary: "10 years of teaching experience.",
-      image: "https://iitg.academia.edu/DrSMantha",
-    },
-    {
-      id: 4,
-      name: "Michael Brown",
-      designation: "Mathematics Teacher",
-      email: "michael_brown@springdale.com",
-      qualification: "M.Sc. in Mathematics",
-      summary: "8 years of teaching experience.",
-      image: "https://iitg.academia.edu/DrSMantha",
-    },
-    {
-      id: 5,
       name: "Sophia Davis",
       designation: " Science Teacher",
       email: "sophia_davis@springdale.com",
       qualification: "M.Sc. in Chemistry",
       summary: "12 years of teaching experience.",
-      image: "https://iitg.academia.edu/DrSMantha",
+      image: sophiaDavisImg,
     },
+    {
+      id: 4,
+      name: "Emily Johnson",
+      designation: "English Teacher",
+      email: "emily_johnson@springdale.com",
+      qualification: "M.A. in English",
+      summary: "10 years of teaching experience.",
+      image: emilyJohnsonImg,
+    },
+    {
+      id: 5,
+      name: "Michael Brown",
+      designation: "Mathematics Teacher",
+      email: "michael_brown@springdale.com",
+      qualification: "M.Sc. in Mathematics",
+      summary: "8 years of teaching experience.",
+      image: michaelBrownImg,
+    },
+
     {
       id: 6,
       name: "David Wilson",
       designation: "Computer Science Teacher",
-      email: "davis_wilson@springdale.com",
+      email: "david_wilson@springdale.com",
       qualification: "B.Tech in Computer Science",
       summary: "5 years of teaching experience.",
-      image: "https://iitg.academia.edu/DrSMantha",
+      image: davidWilsonImg,
     },
   ],
 };

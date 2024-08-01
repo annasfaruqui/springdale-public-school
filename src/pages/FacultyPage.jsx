@@ -1,11 +1,12 @@
 import PageHeader from "../ui/PageHeader";
+import FacultyProfiles from "../features/faculty/FacultyProfiles";
 
 function FacultyPage() {
   return (
-    <div>
+    <>
       <PageHeader page="Faculty" />
-      Faculty Page
-    </div>
+      <FacultyProfiles />
+    </>
   );
 }
 

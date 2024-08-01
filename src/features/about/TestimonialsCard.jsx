@@ -7,11 +7,9 @@ function TestimonialsCard({ testimonial }) {
         &ldquo;&nbsp;{testimonial.testimonial}&nbsp;&rdquo;
       </p>
       <div className="mt-auto flex flex-col items-end justify-end gap-2 justify-self-end sm:flex-row sm:items-center sm:gap-6">
-        <p className="order-2 flex flex-col gap-1 text-right sm:order-1 sm:gap-2">
-          <span className="font-semibold leading-4">{testimonial.author}</span>
-          <span className="text-base italic leading-5">
-            {testimonial.position}
-          </span>
+        <p className="order-2 flex flex-col gap-1 text-right leading-3 sm:order-1">
+          <span className="font-semibold">{testimonial.author}</span>
+          <span className="text-base italic">{testimonial.position}</span>
         </p>
         <Image
           imgSrc={testimonial.authorImage}

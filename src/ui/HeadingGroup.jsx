@@ -1,7 +1,7 @@
 function HeadingGroup({ heading, subHeading }) {
   return (
     <hgroup className="mb-4 flex flex-col gap-1">
-      <h2 className="flex items-center gap-2 text-lg font-black text-stone-500 sm:text-xl">
+      <h2 className="flex items-center gap-2 text-lg font-black leading-6 text-stone-500 sm:text-xl sm:leading-7">
         <div className="mr-0.5 hidden h-1.5 w-8 -skew-x-[45deg] bg-stone-500 sm:block">
           &nbsp;
         </div>

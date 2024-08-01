@@ -2,7 +2,7 @@ import Image from "../../ui/Image";
 
 function FacilitiesCard({ facility }) {
   return (
-    <div className="flex flex-col overflow-hidden rounded-xl shadow-md duration-200 hover:scale-105 sm:gap-2 lg:flex-row">
+    <div className="flex flex-col overflow-hidden rounded-xl shadow-sm duration-200 hover:scale-105 hover:shadow-xl sm:gap-2 sm:shadow-md lg:flex-row">
       <Image
         imgSrc={facility.image}
         altText={facility.summary}

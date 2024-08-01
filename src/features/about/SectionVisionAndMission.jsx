@@ -12,7 +12,7 @@ function SectionVisionAndMission() {
       <Container extraStyles="flex flex-col gap-8">
         <HeadingGroup
           heading="Vision & Mission"
-          subHeading="Our core values, guiding principles, and strategic framework"
+          subHeading="Core values, principles, and strategic framework"
         />
         <div className="grid w-full grid-cols-1 justify-between gap-8 sm:grid-cols-2 sm:gap-6 md:grid-cols-3">
           <GoalsCard icon={<FaEye className="h-6 w-6" />} heading="Our Vision">
